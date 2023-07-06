@@ -1,0 +1,23 @@
+{
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "<h3>Objectives of this Project:</h3>\r <ul>\r   <li>Apply the CRUD (create, read, update, delete) concept to the database related function and features to be developed.</li>\r   <li>Develop the Frontend and Backend aspect of the basic user management system.</li>\r </ul>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "src": "cd client && npm run start",
+    "server": "cd server && nodemon app.js",
+    "start": "concurrently \"npm run server\" \"npm run src\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonLow97/task-management-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonLow97/task-management-system/issues"
+  },
+  "homepage": "https://github.com/LeonLow97/task-management-system#readme"
+}
