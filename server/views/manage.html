@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1" />
+    <title>Account Management</title>
+    <!-- the form awesome library is used to add icons to our form -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" />
+    <!-- include the stylesheet file -->
+    <!--<link href="assets/style_manage.css" rel="stylesheet" type="text/css" /> -->
+  </head>
+  <body>
+    <h1 id="user_welcome">Welcome Back !</h1>
+
+    <div class="add_account">
+      <h1>Task Management System</h1>
+      <form action="/add" method="post">
+        <label for="username">
+          <!-- font awesome icon -->
+          <i class="fas fa-user"></i>
+        </label>
+        <input type="text" name="username" placeholder="Username" id="username" required />
+
+        <label for="password">
+          <i class="fas fa-lock"></i>
+        </label>
+        <input type="password" name="password" placeholder="Password" id="password" required />
+
+        <label for="email">
+          <!-- font awesome icon -->
+          <i class="fas fa-envelope"></i>
+        </label>
+        <input type="text" name="email" placeholder="Email" id="email" />
+
+        <label for="user_group">
+          <!-- font awesome icon -->
+          <i class="fas fa-folder"></i>
+          <input type="text" name="user_group" placeholder="User Group" id="user_group" />
+        </label>
+
+        <input type="submit" value="Add Account" />
+      </form>
+
+      <h1>Update Account</h1>
+      <form action="/update" method="post">
+        <label for="password">
+          <!-- font awesome icon -->
+          <i class="fas fa-lock"></i>
+        </label>
+        <input type="password" name="password" placeholder="Password" id="password" />
+
+        <label for="email">
+          <i class="fas fa-envelope"></i>
+        </label>
+        <input type="email" name="email" placeholder="Email" id="email" />
+
+        <label for="user_group">
+          <!-- font awesome icon -->
+          <i class="fas fa-folder"></i>
+          <input type="text" name="user_group" placeholder="User Group" id="user_group" />
+        </label>
+
+        <input type="submit" value="Update Account" />
+      </form>
+    </div>
+
+    <p id="signout"><a href="http://localhost:3000/">Sign Out</a></p>
+  </body>
+</html>

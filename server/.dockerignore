@@ -1,0 +1,4 @@
+# files to ignore when building image
+node_modules
+Dockerfile
+.git
