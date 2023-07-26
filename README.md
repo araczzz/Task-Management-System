@@ -1,0 +1,2 @@
+# Task-Management-System
+he task management system is a web-based application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to efficiently organize and manage their tasks. Users can create new tasks with titles, descriptions, due dates, and assigned users. They can update and delete tasks as needed. The system includes user authentication to ensure secure access and task management
